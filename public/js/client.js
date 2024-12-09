@@ -2975,7 +2975,7 @@ async function loadLocalMedia(stream, kind) {
             const myVideoStatusIcon = document.createElement('button');
             const myAudioStatusIcon = document.createElement('button');
             const myVideoFullScreenBtn = document.createElement('button');
-           // const myVideoPinBtn = document.createElement('button');
+            const myVideoPinBtn = document.createElement('button');
             const myVideoMirrorBtn = document.createElement('button');
             const myVideoZoomInBtn = document.createElement('button');
             const myVideoZoomOutBtn = document.createElement('button');
