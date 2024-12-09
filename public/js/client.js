@@ -6022,6 +6022,9 @@ async function shareRoomUrl() {
  * @param {boolean} checkScreen check screen share
  */
 function shareRoomMeetingURL(checkScreen = false) {
+}    
+
+function shareRoomMeetingURL_(checkScreen = false) {
     playSound('newMessage');
     const roomURL = getRoomURL();
     Swal.fire({
